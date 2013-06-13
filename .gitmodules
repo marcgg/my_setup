@@ -1,0 +1,6 @@
+[submodule "solarized"]
+	path = solarized
+	url = https://github.com/altercation/solarized.git
+[submodule "ag"]
+	path = ag
+	url = https://github.com/epmatsw/ag.vim.git

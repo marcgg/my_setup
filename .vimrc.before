@@ -1,0 +1,17 @@
+let NERDTreeMapActivateNode='<right>'
+let mapleader=","
+
+noremap <leader><leader> <c-^>
+
+let NERDTreeShowHidden=1
+
+set colorcolumn=90
+
+nmap <silent> <c-k> :wincmd k<CR>
+nmap <silent> <c-j> :wincmd j<CR>
+nmap <silent> <c-h> :wincmd h<CR>
+nmap <silent> <c-l> :wincmd l<CR>
+
+autocmd BufWritePre *.* :%s/\s\+$//e
+
+autocmd FileType c,cpp,java,php,ruby,python,javascript,css,scss,haml autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()

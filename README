@@ -1,0 +1,5 @@
+ln -s .janus/.vimrc.before .vimrc.before
+ln -s .janus/.vimrc.after .vimrc.after
+
+ln -s .janus/.vimrc.before .gvimrc.before
+ln -s .janus/.vimrc.after .gvimrc.after
