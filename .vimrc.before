@@ -9,3 +9,27 @@ let NERDTreeShowHidden=1
 set colorcolumn=90
 
 autocmd BufWritePre *.* :%s/\s\+$//e
+
+call janus#disable_plugin('css-color')
+call janus#disable_plugin('ack')
+call janus#disable_plugin('easymotion')
+call janus#disable_plugin('webapi')
+call janus#disable_plugin('gist')
+call janus#disable_plugin('snipmate')
+call janus#disable_plugin('kwbd')
+call janus#disable_plugin('eunuch')
+call janus#disable_plugin('matchit')
+call janus#disable_plugin('syntastic')
+call janus#disable_plugin('vroom')
+call janus#disable_plugin('zoomwin')
+call janus#disable_plugin('visualstar')
+call janus#disable_plugin('vimwiki')
+call janus#disable_plugin('endwise')
+call janus#disable_plugin('gundo')
+call janus#disable_plugin('multiple-cursors')
+call janus#disable_plugin('visualstar')
+
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.yardoc\|public$|log\|tmp\||tmp$',
+  \ 'file': '\.so$\|\.dat$|\.DS_Store$'
+  \ }
