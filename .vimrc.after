@@ -1,5 +1,7 @@
 color solarized
 
+set guifont=Menlo\ Regular:h17
+
 map <D-A-RIGHT> <C-w>l
 map <D-A-LEFT> <C-w>h
 map <D-A-DOWN> <C-w><C-w>
